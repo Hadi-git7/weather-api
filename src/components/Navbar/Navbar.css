@@ -1,0 +1,32 @@
+.Navbar{
+    background-color:#759eda;
+    width:100%;
+    height:120px;
+    margin:0;
+    display:flex;
+  }
+  .Navbar,.search-input {
+    color: white;
+    font-size: 25px;
+  }
+  .Navbar button {
+    width:200px;
+    height:65px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 25px;
+    background-color: #5879c7;
+    color:#05054b;
+    border:#5879c7;
+  }
+
+  @media screen and (max-width:1422px){
+    .Navbar{
+    justify-content: space-between;
+    width:100vw;
+    }
+    .Navbar button{
+      margin-left: 0px;
+      margin-right:50px;
+    }
+  }
